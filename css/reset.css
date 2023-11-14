@@ -18,7 +18,7 @@ button{/*background-color: transparent;*/
 cursor: pointer;}
 
 .container {
-width: 100;
+width: 100%;
 max-width: 1246px;
 margin: 0 auto;
 padding: 0px 15px;

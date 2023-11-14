@@ -1,0 +1,43 @@
+header {
+    width: 100%;
+    height: 8.8rem;
+    background: var(--gray-colors-800);
+    display: flex;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header nav {
+    display: flex;
+    /*Aqui tá rolando algo*/
+    align-items: center;
+}
+
+header .menu-mobile {
+    display: none;    
+}
+
+header nav ul {
+    display: flex;
+    margin-right: 3.2rem;
+
+}
+
+header nav ul li {
+    margin-left: 3.2rem;
+
+}
+header nav ul li:first-child {
+    margin-left: 0;
+    
+}
+
+header nav .btn-primary {
+    padding: 1rem 3.4rem;
+}
