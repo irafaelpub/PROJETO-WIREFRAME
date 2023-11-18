@@ -120,6 +120,8 @@ header nav .btn-primary {
 
 .s-card-featured .all-cards {
     display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;
 }
 
 .s-card-featured .all-cards .card {
@@ -128,24 +130,36 @@ header nav .btn-primary {
     height: 38.2rem;
     background-color: rgb(28, 29, 31, 0.5);
 
-}
-
-.s-card-feature .all-cards .card .info {
-    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 6.4rem;
+
 }
 
-.s-card-feature .all-cards .card .info h3 {
+.s-card-featured .all-cards .card.white {
+    background-color: var(--white);
+}
+
+.s-card-featured .all-cards .card.white h3 {
+    color: var(--gray-colors-100);
+}
+
+.s-card-featured .all-cards .card.white p {
+    color: var(--gray-colors-300);
+}
+
+.s-card-featured .all-cards .card .info {
+    margin-top: 40px;
+    max-width: 28.8rem;
+
+}
+
+.s-card-featured .all-cards .card .info h3 {
     text-align: center;
 }
 
-.s-card-feature .all-cards .card .info p {
+.s-card-featured .all-cards .card .info p {
     text-align: center;
+    line-height: 150%;
 }
- 
-.s-card-feature .all-cards .card .icon {
-    background-color: red;
-}
-
