@@ -276,7 +276,7 @@ footer main nav .item ul li:last-child {
 }
 
 footer main nav .item ul li a {
-    color: var(--white);
+    color: var(--white-colors-text);
     font-family: 'Sora', sans-serif;
     font-size: 1.4rem;
     font-weight: 400;
